@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color: black;
+    color: white;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1{
+    text-align: center;
+    margin: 1rem;
+  }
+  
+   .buttonContainer {
+    text-align: center;
+    margin: 2rem; 
+  }
+  
+  button{
+    padding: 0.2rem;
+  }
+  
+  input{
+    font-size: ;
+  }
+  
+  h2{
+    font-size: 3rem;
+    color: red;
+  }
+
+  img{
+    height: 20rem;
+    display: block;
+    margin: auto;
+    margin: 2rem auto;
+  }
+
+  .passage{
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+
+p{
+
+    margin-bottom: 10rem;
+}
+
+
+93360-97465
