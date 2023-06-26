@@ -1,0 +1,44 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.header{
+    text-align: center;
+}
+p{
+    font-size: 1.5rem;
+}
+.imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    flex: 0 0 25%;
+    display: block;
+    text-align: center;
+}
+
+
+.section img{
+    width: auto;
+    height: 10rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.section span{
+    display: block;
+    margin-top: 10px;
+}
+
+.section .hidden{
+    display: none;
+}
