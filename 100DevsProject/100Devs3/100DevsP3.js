@@ -1,5 +1,5 @@
 
-// const joker = document.querySelector('#joker')
+const joker = document.querySelector('#joker')
 
 
 // document.querySelector('#theJoker').addEventListener('click', theJoker)
