@@ -1,6 +1,8 @@
 
-const joker = document.querySelector('#joker')
-
+let joker  = document.querySelector('#joker')
+let loki = document.querySelector('#loki')
+let thanos = document.querySelector('#thanos')
+let darth = document.querySelector('#darth')
 
  document.querySelector('#theJoker').addEventListener('click', theJoker)
  document.querySelector('#theLoki').addEventListener('click', theLoki)
