@@ -1,0 +1,82 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+button{
+    margin-top: 3rem;
+}
+
+img{
+    height: 15rem;
+}
+
+.hidden{
+    display: none;
+}
+
+p{
+    font-size: 1.5rem;
+    color: rgb(0, 238, 255);
+    width: 100%;
+}
+
+.imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+    color: red;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+li{
+    margin: 1rem 3rem;
+
+}
+
+/* 
+let joker = document.querySelector('#joker')
+let loki = document.querySelector('#loki')
+let thanos = document.querySelector('#thanos')
+let darth = document.querySelector('#darth')
+
+
+document.querySelector('#theJoker').addEventListener('click', joker )
+document.querySelector('#theLoki').addEventListener('click', loki )
+document.querySelector('#theThanos').addEventListener('click',thanos )
+document.querySelector('#theDarth').addEventListener('click', theDarth)
+
+
+function joker(){
+    joker.classList.toggle('hidden')
+    loki.classList.add('hidden')
+    thanos.classList.add('hidden')
+    darth.classList.add('hidden')
+}
+function loki(){
+    joker.classList.add('hidden')
+    loki.classList.toggle('hidden')
+    thanos.classList.add('hidden')
+    darth.classList.add('hidden')
+}
+function thanos(){
+    joker.classList.add('hidden')
+    loki.classList.add('hidden')
+    thanos.classList.toggle('hidden')
+    darth.classList.add('hidden')
+}
+function darth(){
+    joker.classList.add('hidden')
+    loki.classList.add('hidden')
+    thanos.classList.add('hidden')
+    darth.classList.toggle('hidden')
+} */
