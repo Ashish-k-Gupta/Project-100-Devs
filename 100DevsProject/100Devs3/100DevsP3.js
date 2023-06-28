@@ -1,45 +1,39 @@
 
-// const joker = document.querySelector('#joker')
+const joker = document.querySelector('#joker')
+const loki = document.querySelector('#liki')
+const thanos = document.querySelector('#thanos')
+const darth = document.querySelector('#darth')
 
 
-// document.querySelector('#theJoker').addEventListener('click', theJoker)
-// document.querySelector('#theLoki').addEventListener('click', theLoki)
-// document.querySelector('#theThanos').addEventListener('click', theThanos)
-// document.querySelector('#theDarth').addEventListener('click', theDarth)
+document.querySelector('#theJoker').addEventListener('click', theJoker)
+document.querySelector('#theLoki').addEventListener('click', theLoki)
+document.querySelector('#theThanos').addEventListener('click', theThanos)
+document.querySelector('#theDarth').addEventListener('click', theDarth)
 
 
-// function theJoker(){
-//     joker.classList.toggle('hidden')
-//     loki.classList.add('hidden')
-//     thanos.classList.add('hidden')
-//     darth.classList.add('hidden')
-// }
-// function theLoki(){
-//     joker.classList.add('hidden')
-//     loki.classList.toggle('hidden')
-//     thanos.classList.add('hidden')
-//     darth.classList.add('hidden')
-// }
-// function theThanos(){
-//     joker.classList.add('hidden')
-//     loki.classList.add('hidden')
-//     thanos.classList.toggle('hidden')
-//     darth.classList.add('hidden')
-// }
-// function theDarth(){
-//     joker.classList.add('hidden')
-//     loki.classList.add('hidden')
-//     thanos.classList.add('hidden')
-//     darth.classList.toggle('hidden')
-// }
-
-
-
-document.querySelector('#theJoker').addEventListener('click',theBest)
-
-
-function theBest(){
-    if{
-        
-    }
+function theJoker(){
+    joker.classList.toggle('hidden')
+    loki.classList.add('hidden')
+    thanos.classList.add('hidden')
+    darth.classList.add('hidden')
 }
+function theLoki(){
+    joker.classList.add('hidden')
+    loki.classList.toggle('hidden')
+    thanos.classList.add('hidden')
+    darth.classList.add('hidden')
+}
+function theThanos(){
+    joker.classList.add('hidden')
+    loki.classList.add('hidden')
+    thanos.classList.toggle('hidden')
+    darth.classList.add('hidden')
+}
+function theDarth(){
+    joker.classList.add('hidden')
+    loki.classList.add('hidden')
+    thanos.classList.add('hidden')
+    darth.classList.toggle('hidden')
+}
+
+
